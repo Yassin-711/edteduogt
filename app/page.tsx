@@ -24,7 +24,7 @@ export default function Home() {
 
     <section className="hero" id="top">
       <div className="hero-copy"><p className="eyebrow">EDUCATIONAL MANAGER · OGT EGYPT · EDT 26.2</p><h1>Knowledge should<br/><em>move people.</em></h1><p className="lede">I’m Yassin ElHawash—an OGT leader, cybersecurity engineer and relentless problem-solver. I want to turn national knowledge into clear, competitive and memorable learning experiences that unlock every LC’s potential.</p><div className="hero-actions"><a className="button" href="#answers">Enter the application <b>↘</b></a><span className="status"><i/> Available for impact</span></div></div>
-      <div className="portrait-card"><img src="/yassin.jpeg" alt="Yassin ElHawash"/><div className="rank"><small>SUMMER 2026</small><strong>#1 Egypt</strong><span>#4 Global · OGT APDs</span></div></div>
+      <div className="portrait-card"><img src="https://raw.githubusercontent.com/Yassin-711/edteduogt/main/public/yassin.jpeg" alt="Yassin ElHawash"/><div className="rank"><small>SUMMER 2026</small><strong>#1 Egypt</strong><span>#4 Global · OGT APDs</span></div></div>
       <div className="ticker"><span>ENTHUSIASTIC</span><span>CLEVER</span><span>CREATIVE</span><span>MODERN</span></div>
     </section>
 
