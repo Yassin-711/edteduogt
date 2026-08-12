@@ -1,3 +1,5 @@
+import { ThemeToggle } from "./ThemeToggle";
+
 const journey = [
   ["SUMMER 25", "BD Member", "Built my foundation in outreach, value creation and execution."],
   ["WINTER 25", "TL iGV Raising", "Moved from individual contribution to leading people and managing delivery."],
@@ -20,7 +22,7 @@ const layers = [
 
 export default function Home() {
   return <main>
-    <nav className="nav"><a className="brand" href="#top"><span>GT</span> EDUCATION LAB</a><div><a href="#story">Journey</a><a href="#answers">Application</a><a href="#system">System</a></div></nav>
+    <nav className="nav"><a className="brand" href="#top"><span>GT</span><span className="brand-text">EDUCATION LAB</span></a><div className="nav-links"><a href="#story">Journey</a><a href="#answers">Application</a><a href="#system">System</a></div><ThemeToggle /></nav>
 
     <section className="hero" id="top">
       <div className="hero-copy"><p className="eyebrow">EDUCATIONAL MANAGER · OGT EGYPT · EDT 26.2</p><h1>Knowledge should<br/><em>move people.</em></h1><p className="lede">I’m Yassin ElHawash—an OGT leader, cybersecurity engineer and relentless problem-solver. I want to turn national knowledge into clear, competitive and memorable learning experiences that unlock every LC’s potential.</p><div className="hero-actions"><a className="button" href="#answers">Enter the application <b>↘</b></a><span className="status"><i/> Available for impact</span></div></div>
